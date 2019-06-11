@@ -85,5 +85,5 @@ p {
   background-color: #fff;
   max-width: 302px;
   padding: 10px;
-  border: none;
+  display: none;
 }
