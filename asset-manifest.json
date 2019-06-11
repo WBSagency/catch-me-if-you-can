@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/catch-me-if-you-can/static/css/main.2cce8147.chunk.css",
-    "main.js": "/catch-me-if-you-can/static/js/main.d4707f3d.chunk.js",
-    "main.js.map": "/catch-me-if-you-can/static/js/main.d4707f3d.chunk.js.map",
+    "main.css": "/catch-me-if-you-can/static/css/main.ff3f7414.chunk.css",
+    "main.js": "/catch-me-if-you-can/static/js/main.e24a0c88.chunk.js",
+    "main.js.map": "/catch-me-if-you-can/static/js/main.e24a0c88.chunk.js.map",
     "runtime~main.js": "/catch-me-if-you-can/static/js/runtime~main.3765b9cc.js",
     "runtime~main.js.map": "/catch-me-if-you-can/static/js/runtime~main.3765b9cc.js.map",
-    "static/js/2.b41502e9.chunk.js": "/catch-me-if-you-can/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/catch-me-if-you-can/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/catch-me-if-you-can/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/catch-me-if-you-can/static/js/2.65aa1cca.chunk.js.map",
     "index.html": "/catch-me-if-you-can/index.html",
-    "precache-manifest.ba4158c22019a2405735be77900626a0.js": "/catch-me-if-you-can/precache-manifest.ba4158c22019a2405735be77900626a0.js",
+    "precache-manifest.f6bbda2912c0bb77e0c703cfaa378a61.js": "/catch-me-if-you-can/precache-manifest.f6bbda2912c0bb77e0c703cfaa378a61.js",
     "service-worker.js": "/catch-me-if-you-can/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/catch-me-if-you-can/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/catch-me-if-you-can/static/media/logo.5d5d9eef.svg"
+    "static/css/main.ff3f7414.chunk.css.map": "/catch-me-if-you-can/static/css/main.ff3f7414.chunk.css.map",
+    "static/media/index.css": "/catch-me-if-you-can/static/media/the-cat.53173cd5.svg"
   }
 }
