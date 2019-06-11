@@ -1,13 +1,89 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.wbs-middle-center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.wbs-full-screen {
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 2;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+.start {
+  background-color: #07121f;
+  color: #fff;
+}
+
+.start-header{
+  margin-bottom: 20px;
+}
+
+.start-content {
+  margin-top: 50px;
+}
+
+.start-content__info {
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.start-footer {
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: rgb(196, 18, 18);
+  width: auto;
+  display: inline-block;
+  padding: 0 25px;
+  border-radius: 25px;
+  border: none;
+  line-height: 47px;
+  cursor: pointer;
+  color: #fff;
+  margin-top:30px;
+}
+
+.play-area {
+  background-color: black;
+  position: relative;
+}
+
+.the-cat {
+  position: absolute;
+  width: calc(100vw / 12);
+  height: calc(100vw / 12);
+  display: inline-block;
+  cursor: pointer;
+  background-image: url('the-cat.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.popup-message{
+  position: absolute;
+  background-color: #fff;
+  max-width: 302px;
+  padding: 10px;
+  border: none;
 }

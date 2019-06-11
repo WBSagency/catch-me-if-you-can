@@ -1,26 +1,61 @@
 import React from 'react';
-import logo from './logo.svg';
+import Start from './components/Start';
+import Play from './components/Play';
+import EndGame from './components/EndGame';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+
+  state = {
+    start  : true,
+    play : false,
+    end :false,
+    catOpacity : 0.93,
+    gameStep : 1
+  }
+
+  startGame = () => {
+    this.setState({
+      start: false,
+      play: true,
+      end: false,
+      catOpacity : 0.93,
+      gameStep : 1
+    })
+  }
+
+  nextStep = () => {
+
+    this.setState((prevstate)=>{
+      return {
+        catOpacity: prevstate.catOpacity - 0.1,
+        gameStep: prevstate.gameStep + 1
+      }
+    })
+
+    if(this.state.gameStep === 10){
+      this.setState(
+        {
+          end: true,
+          play: false
+        }
+      )
+    }
+
+    
+  }
+
+  render (){
+    return (
+      <div>
+        {this.state.start && <Start startGame={this.startGame}/>}
+        {this.state.play && <Play nextStep={this.nextStep}  gameStep={this.state.gameStep} catOpacity={this.state.catOpacity}/>}
+        {this.state.end && <EndGame startGame={this.startGame}/>}
+      </div>
+    );
+  }
+ 
 }
 
 export default App;
