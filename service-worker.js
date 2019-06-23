@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/catch-me-if-you-can/precache-manifest.b32931b265ffcd0209d26b9a7944595f.js"
+  "/catch-me-if-you-can/precache-manifest.1ca59be3531a9ac0a8505237d540b202.js"
 );
 
 self.addEventListener('message', (event) => {
